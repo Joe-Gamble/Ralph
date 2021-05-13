@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1620907642",
+        "python_version": "3.7.5 (tags/v3.7.5:5c02a39a0b, Oct 15 2019, 00:11:34) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\joemi\\Documents\\Unity Projects\\Dog Trainer\\dogtrainer\\venv\\Scripts\\mlagents-learn --run-id=MoveToGoal1",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.20.2",
+        "end_time_seconds": "1620907654"
+    },
+    "total": 11.1686511,
+    "count": 1,
+    "self": 0.008176600000000533,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09132099999999999,
+            "count": 1,
+            "self": 0.09132099999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 11.069153499999999,
+            "count": 1,
+            "self": 0.0004914999999989789,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 11.0686505,
+                    "count": 1,
+                    "self": 11.0686505
+                },
+                "trainer_threads": {
+                    "total": 8.999999998593466e-07,
+                    "count": 1,
+                    "self": 8.999999998593466e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.0599999999527654e-05,
+                    "count": 1,
+                    "self": 1.0599999999527654e-05
+                }
+            }
+        }
+    }
+}

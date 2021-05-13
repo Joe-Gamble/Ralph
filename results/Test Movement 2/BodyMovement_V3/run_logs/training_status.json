@@ -1,0 +1,38 @@
+{
+    "BodyRotation": {
+        "checkpoints": [
+            {
+                "steps": 499953,
+                "file_path": "results\\BodyMovement_V3\\BodyRotation\\BodyRotation-499953.onnx",
+                "reward": 7.821324159932691,
+                "creation_time": 1620885258.8026516,
+                "auxillary_file_paths": [
+                    "results\\BodyMovement_V3\\BodyRotation\\BodyRotation-499953.pt"
+                ]
+            },
+            {
+                "steps": 500012,
+                "file_path": "results\\BodyMovement_V3\\BodyRotation\\BodyRotation-500012.onnx",
+                "reward": 7.971060601147738,
+                "creation_time": 1620885258.8385553,
+                "auxillary_file_paths": [
+                    "results\\BodyMovement_V3\\BodyRotation\\BodyRotation-500012.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500012,
+            "file_path": "results\\BodyMovement_V3\\BodyRotation.onnx",
+            "reward": 7.971060601147738,
+            "creation_time": 1620885258.8385553,
+            "auxillary_file_paths": [
+                "results\\BodyMovement_V3\\BodyRotation\\BodyRotation-500012.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

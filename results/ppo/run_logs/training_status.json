@@ -1,0 +1,65 @@
+{
+    "HeadMotion": {
+        "checkpoints": [
+            {
+                "steps": 50352,
+                "file_path": "results\\ppo\\HeadMotion\\HeadMotion-50352.onnx",
+                "reward": -39.13278400030781,
+                "creation_time": 1620414097.4728444,
+                "auxillary_file_paths": [
+                    "results\\ppo\\HeadMotion\\HeadMotion-50352.pt"
+                ]
+            },
+            {
+                "steps": 499984,
+                "file_path": "results\\ppo\\HeadMotion\\HeadMotion-499984.onnx",
+                "reward": 8.40000057220459,
+                "creation_time": 1620414551.3874319,
+                "auxillary_file_paths": [
+                    "results\\ppo\\HeadMotion\\HeadMotion-499984.pt"
+                ]
+            },
+            {
+                "steps": 500020,
+                "file_path": "results\\ppo\\HeadMotion\\HeadMotion-500020.onnx",
+                "reward": 0.75,
+                "creation_time": 1620414551.4253309,
+                "auxillary_file_paths": [
+                    "results\\ppo\\HeadMotion\\HeadMotion-500020.pt"
+                ]
+            },
+            {
+                "steps": 499960,
+                "file_path": "results\\ppo\\HeadMotion\\HeadMotion-499960.onnx",
+                "reward": -1.0490910069508985,
+                "creation_time": 1620585735.706833,
+                "auxillary_file_paths": [
+                    "results\\ppo\\HeadMotion\\HeadMotion-499960.pt"
+                ]
+            },
+            {
+                "steps": 500160,
+                "file_path": "results\\ppo\\HeadMotion\\HeadMotion-500160.onnx",
+                "reward": -1.4450001095732052,
+                "creation_time": 1620585735.7557018,
+                "auxillary_file_paths": [
+                    "results\\ppo\\HeadMotion\\HeadMotion-500160.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500160,
+            "file_path": "results\\ppo\\HeadMotion.onnx",
+            "reward": -1.4450001095732052,
+            "creation_time": 1620585735.7557018,
+            "auxillary_file_paths": [
+                "results\\ppo\\HeadMotion\\HeadMotion-500160.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

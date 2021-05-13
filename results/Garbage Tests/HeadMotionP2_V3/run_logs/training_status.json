@@ -1,0 +1,38 @@
+{
+    "HeadMotion": {
+        "checkpoints": [
+            {
+                "steps": 499996,
+                "file_path": "results\\HeadMotionP2_V3\\HeadMotion\\HeadMotion-499996.onnx",
+                "reward": 2.701535753634199,
+                "creation_time": 1620063609.0159714,
+                "auxillary_file_paths": [
+                    "results\\HeadMotionP2_V3\\HeadMotion\\HeadMotion-499996.pt"
+                ]
+            },
+            {
+                "steps": 500035,
+                "file_path": "results\\HeadMotionP2_V3\\HeadMotion\\HeadMotion-500035.onnx",
+                "reward": 2.7328723656135434,
+                "creation_time": 1620063609.0884569,
+                "auxillary_file_paths": [
+                    "results\\HeadMotionP2_V3\\HeadMotion\\HeadMotion-500035.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500035,
+            "file_path": "results\\HeadMotionP2_V3\\HeadMotion.onnx",
+            "reward": 2.7328723656135434,
+            "creation_time": 1620063609.0884569,
+            "auxillary_file_paths": [
+                "results\\HeadMotionP2_V3\\HeadMotion\\HeadMotion-500035.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
